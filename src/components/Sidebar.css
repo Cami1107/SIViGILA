@@ -1,0 +1,52 @@
+
+
+.sidebar {
+    width: 200px;
+    background-color: #f1f1f1;
+    padding: 20px;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar li a {
+    color: #333;
+    text-decoration: none;
+    display: block;
+    padding: 8px;
+    border-radius: 4px;
+  }
+  
+  .sidebar li a:hover {
+    color: #fff;
+    background-color: #e57373; /* Cambia este color al rojo claro deseado */
+  }
+  
+  @media screen and (max-width: 768px) {
+    .sidebar {
+      width: 100%;
+    }
+  
+    .sidebar ul {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .sidebar li {
+      margin-bottom: 5px;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
+  

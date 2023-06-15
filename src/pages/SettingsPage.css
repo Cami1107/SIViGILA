@@ -1,0 +1,56 @@
+/* SettingsPage.css */
+.settings-container {
+    background-color: #f1f5f9;
+    padding: 20px;
+  }
+  
+  .settings-container h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .shirt-counts {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .shirt-counts h3 {
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .shirt-counts label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .shirt-counts input {
+    width: 100px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .chart-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  @media (max-width: 768px) {
+    .shirt-counts {
+      padding: 10px;
+    }
+  
+    .shirt-counts input {
+      width: 80px;
+    }
+  }
+  
+  

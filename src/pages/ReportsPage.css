@@ -1,0 +1,24 @@
+/* ReportsPage.css */
+
+.reports-container {
+    background-color: #e1f5fe; /* Fondo azul claro */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra */
+  }
+  
+  .chart-row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .chart-container {
+    background-color: #fff; /* Fondo blanco */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Sombra */
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  /* Estilos adicionales según sea necesario */
+  
+  
